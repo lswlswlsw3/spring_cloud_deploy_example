@@ -6,4 +6,4 @@ spring:
     name: member
 
 customer:
-  message: hello
+  message: hello man
