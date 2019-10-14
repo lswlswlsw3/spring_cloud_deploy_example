@@ -14,7 +14,7 @@ import com.example.demo.vo.MemberVO;
 @RequestMapping("/test")
 public class TestRestController {
 
-	@RequestMapping("/${sabun}/${name}/${division}")
+	@RequestMapping("/{sabun}/{name}/{division}")
 	public MemberVO getMemberInfo(@PathVariable String sabun, @PathVariable String name, @PathVariable String division) {
 		MemberVO memberVO = new MemberVO();
 		memberVO.setSabun(sabun);
