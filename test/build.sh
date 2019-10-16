@@ -1,2 +1,2 @@
-. ./var/lib/jenkins/workspace/github/test
+cd $ROOT/var/lib/jenkins/workspace/github/test
 sudo gradle build
