@@ -1,1 +1,2 @@
-sudo /var/lib/jenkins/workspace/github/test/gradle build
+. ./var/lib/jenkins/workspace/github/test
+sudo gradle build
